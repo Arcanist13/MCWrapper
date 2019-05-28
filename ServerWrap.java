@@ -14,7 +14,7 @@ public class ServerWrap{
 
 	private static String motd = null;
 
-	private static final String SERVER_START = "java -server -Xms4G -Xmx6G -d64 -jar minecraft_server.jar nogui";
+	private static final String SERVER_START = "java -server -Xms4G -Xmx8G -d64 -jar spigot.jar nogui";
 
 	public static void main(String[] args) throws IOException, InterruptedException{
 		sw = new ServerWrap();
@@ -63,7 +63,7 @@ public class ServerWrap{
 	public void stop(){
 		running = false;
 		try{
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			System.exit(0);
 		} catch(Exception e){
 			System.out.println("Failed to stop server.");
@@ -80,11 +80,11 @@ public class ServerWrap{
 
 		try{
 			servListener.interrupt();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			servListener = new Thread(new ServerThread(sw, serv));
 			servListener.start();
 			servPrint.interrupt();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			servPrint = new Thread(new ServerListener(sw, serv, motd));
 			servPrint.start();
 		} catch(Exception e){

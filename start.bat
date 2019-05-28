@@ -2,11 +2,15 @@
 title Arcadia
 color A
 
-start /min ./motd.bat
+echo Changing motd
+start /min .\motd.bat
 
-start /min ./priority.bat
+echo Starting priority bat
+start /min .\priority.bat
 
+echo Compiling Server
 javac ServerWrap.java
+echo Starting Server
 java ServerWrap
 
 echo Server process finished
