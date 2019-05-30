@@ -1,0 +1,20 @@
+[20:00:03] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[20:00:03] [Server thread/INFO]: Loading properties
+[20:00:03] [Server thread/INFO]: Default game type: SURVIVAL
+[20:00:03] [Server thread/INFO]: Generating keypair
+[20:00:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:00:03] [Server thread/INFO]: Using default channel type
+[20:00:04] [Server thread/INFO]: Preparing level "Arcadia"
+[20:00:04] [Server thread/INFO]: Preparing start region for level 0
+[20:00:05] [Server thread/INFO]: Preparing spawn area: 23%
+[20:00:06] [Server thread/INFO]: Done (1.968s)! For help, type "help" or "?"
+[20:02:06] [Server thread/INFO]: Stopping the server
+[20:02:06] [Server thread/INFO]: Stopping server
+[20:02:06] [Server thread/INFO]: Saving players
+[20:02:06] [Server thread/INFO]: Saving worlds
+[20:02:06] [Server thread/INFO]: Saving chunks for level 'Arcadia'/Overworld
+[20:02:06] [Server thread/INFO]: Saving chunks for level 'Arcadia'/Nether
+[20:02:06] [Server thread/INFO]: Saving chunks for level 'Arcadia'/The End
+[20:02:06] [Server Shutdown Thread/INFO]: Stopping server
+[20:02:06] [Server Shutdown Thread/INFO]: Saving players
+[20:02:06] [Server Shutdown Thread/INFO]: Saving worlds
