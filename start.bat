@@ -10,10 +10,6 @@ start /min .\motd.bat
 echo Starting priority bat
 start /min .\priority.bat
 
-cd C:\MC\Spigot\web
-start .\webserver.bat
-cd C:\MC\Spigot
-
 echo Compiling Server
 javac ServerWrap.java
 echo Starting Server
